@@ -1,0 +1,14 @@
+This is a lightweight and very basic LIFO (Last In First Out) abstract data type.
+The API (Application Programming Interface or the "user manual" for the funcitons) can be found in the "lifo.h" file. 
+
+To use this library you must:
+
+1) Put lifo.h in the same file as your project, or in a file in the include path (the directories in this "path" are listed in the INCLUDE environment variable). You can add more directory paths to this environment variable.
+
+2) Put lifo.c somewhere in your project directories.
+
+3) Any .c file that uses functions from the library must have '#include "lifo.h"' before the main body of the code.
+
+4) lifo.c (or its object file "lifo.o") must be linked when compiling the final executable of your program. 
+
+Author: Wyatt J Han
