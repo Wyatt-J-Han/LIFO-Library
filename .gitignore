@@ -1,3 +1,2 @@
 *.o
-!lifo.o
 *_test.c
